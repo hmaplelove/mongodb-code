@@ -1,4 +1,4 @@
-package com.casicloud.aop.mongodb.model;
+package com.casicloud.aop.mongodb.iot.model;
 
 import java.io.Serializable;
 
@@ -9,8 +9,8 @@ public class IotData implements Serializable {
 	private String name;
 	private String type;
 	private String key;
-	private String value;
-	private String collecttime;
+	private Double value;
+	private Long collecttime;
 	private String host;
 	private String rack;
 	private String other;
@@ -44,16 +44,16 @@ public class IotData implements Serializable {
 	public void setKey(String key) {
 		this.key = key;
 	}
-	public String getValue() {
+	public Double getValue() {
 		return value;
 	}
-	public void setValue(String value) {
+	public void setValue(Double value) {
 		this.value = value;
 	}
-	public String getCollecttime() {
+	public Long getCollecttime() {
 		return collecttime;
 	}
-	public void setCollecttime(String collecttime) {
+	public void setCollecttime(Long collecttime) {
 		this.collecttime = collecttime;
 	}
 	public String getHost() {

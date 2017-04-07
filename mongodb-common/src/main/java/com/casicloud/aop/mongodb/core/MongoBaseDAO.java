@@ -13,7 +13,6 @@ import org.springframework.data.mongodb.core.query.Update;
 import org.springframework.stereotype.Component;
 
 import com.casicloud.aop.mongodb.page.PageModel;
-
 @Component
 public abstract class MongoBaseDAO<T extends Serializable> implements MongoBase<T>{
 	private static final Logger logger=LoggerFactory.getLogger(MongoBaseDAO.class);

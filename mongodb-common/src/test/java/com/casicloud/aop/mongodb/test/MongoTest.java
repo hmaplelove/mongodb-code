@@ -10,8 +10,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import com.casicloud.aop.mongodb.IotDataService;
-import com.casicloud.aop.mongodb.model.IotData;
+import com.casicloud.aop.mongodb.iot.IotDataService;
+import com.casicloud.aop.mongodb.iot.model.IotData;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(locations = "classpath:spring-mongo.xml")
